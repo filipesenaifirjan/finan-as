@@ -1,0 +1,35 @@
+{
+  "63a89c40-ad3c-4c18-bce7-0323698e3008": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://t2mlabtst.sharepoint.com/sites/Finanas": {
+        "dataSources": {
+          "Lista_categoria": {
+            "tableName": "ce42580a-fc98-4afa-a516-e1691b4b7912"
+          },
+          "Lista_movimentações": {
+            "tableName": "184e1e61-2cb5-4f3c-93f0-1530ed5f3038"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lista_categoria",
+      "Lista_movimentações"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "63a89c40-ad3c-4c18-bce7-0323698e3008"
+  }
+}
